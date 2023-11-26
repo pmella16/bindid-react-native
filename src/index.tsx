@@ -110,7 +110,7 @@ class XmBindIdSdk {
     * @return 
   */
   authenticateWithBoundUser = (bindIdRequest: XmBindIdBoundUserAuthenticationRequest): Promise<XmBindIdResponse> => {
-    return BindidReactNative.authenticateWithBoundUser(bindIdRequest);
+    return BindidReactNative.authenticateBoundUser(bindIdRequest);
   }
 
  /**
